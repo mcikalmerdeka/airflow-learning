@@ -1,0 +1,6 @@
+# Add Python packages here, one per line. Pin versions where possible.
+pandas
+psycopg2-binary
+
+# Environment variables management
+python-dotenv>=1.0.0
