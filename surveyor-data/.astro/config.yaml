@@ -1,0 +1,14 @@
+project:
+  name: surveyor-data
+
+# Webserver port configuration
+webserver:
+  port: 8080
+
+# Postgres port configuration (for local metadata DB)
+postgres:
+  port: 5433
+
+# Scheduler configuration
+scheduler:
+  catchup_by_default: false

@@ -1,0 +1,15 @@
+# Astro Runtime includes the following pre-installed providers packages:
+# https://www.astronomer.io/docs/astro/runtime-image-architecture#provider-packages
+
+# PostgreSQL provider (required for PostgresHook)
+apache-airflow-providers-postgres>=5.8.0
+
+# Database drivers (for Neon PostgreSQL)
+psycopg2-binary>=2.9.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Environment variables management
+python-dotenv>=1.0.0

@@ -1,0 +1,101 @@
+surveyor_id,name,region,survey_type,survey_date,households_visited,response_rate,status,quality_score
+SRV0001,Ahmad Wijaya,Jakarta Pusat,Survei Sosial Ekonomi,2024-05-24,31,0.91,Pending Review,95.4
+SRV0002,Siti Rahayu,Makassar,Sensus Penduduk,2024-02-18,25,0.7,In Progress,99.1
+SRV0003,Budi Santoso,Jakarta Pusat,Survei Sosial Ekonomi,2024-04-01,30,0.78,Pending Review,88.6
+SRV0004,Dewi Lestari,Medan,Survei Sosial Ekonomi,2024-01-09,48,0.82,Completed,76.3
+SRV0005,Eko Prasetyo,Yogyakarta,Survei Kesehatan,2024-04-11,29,0.82,In Progress,98.1
+SRV0006,Fitri Handayani,Jakarta Selatan,Survei Pertanian,2024-06-08,27,0.76,In Progress,72.2
+SRV0007,Gunawan Setiawan,Yogyakarta,Survei Kesehatan,2024-02-17,43,0.86,Pending Review,83.0
+SRV0008,Hesti Wulandari,Makassar,Survei Pertanian,2024-03-23,23,0.85,Completed,82.1
+SRV0009,Irfan Hakim,Surabaya,Survei Pertanian,2024-06-23,28,0.73,In Progress,73.5
+SRV0010,Joko Susilo,Surabaya,Survei Kesehatan,2024-02-22,33,0.76,Pending Review,83.5
+SRV0011,Ahmad Wijaya,Bandung,Sensus Penduduk,2024-01-06,38,0.81,Completed,75.5
+SRV0012,Siti Rahayu,Bandung,Survei Kesehatan,2024-05-28,34,0.9,Pending Review,93.1
+SRV0013,Budi Santoso,Jakarta Selatan,Survei Kesehatan,2024-03-23,28,0.83,Pending Review,96.4
+SRV0014,Dewi Lestari,Medan,Survei Kesehatan,2024-06-26,25,0.9,In Progress,93.0
+SRV0015,Eko Prasetyo,Makassar,Survei Sosial Ekonomi,2024-04-09,15,0.76,Completed,95.0
+SRV0016,Fitri Handayani,Makassar,Survei Kesehatan,2024-03-13,11,0.89,Pending Review,90.8
+SRV0017,Gunawan Setiawan,Jakarta Pusat,Survei Industri,2024-03-01,30,0.62,Pending Review,94.1
+SRV0018,Hesti Wulandari,Yogyakarta,Sensus Penduduk,2024-03-01,41,0.72,In Progress,75.5
+SRV0019,Irfan Hakim,Medan,Survei Pertanian,2024-06-01,37,0.61,Completed,71.6
+SRV0020,Joko Susilo,Denpasar,Survei Industri,2024-05-05,38,0.9,In Progress,95.5
+SRV0021,Ahmad Wijaya,Surabaya,Survei Sosial Ekonomi,2024-01-30,42,0.79,In Progress,70.8
+SRV0022,Siti Rahayu,Makassar,Survei Pertanian,2024-03-09,35,0.73,Pending Review,71.6
+SRV0023,Budi Santoso,Yogyakarta,Survei Industri,2024-03-09,16,0.72,Completed,80.2
+SRV0024,Dewi Lestari,Medan,Survei Pertanian,2024-04-14,14,0.68,In Progress,99.5
+SRV0025,Eko Prasetyo,Surabaya,Survei Industri,2024-05-01,26,0.84,Pending Review,93.5
+SRV0026,Fitri Handayani,Denpasar,Survei Kesehatan,2024-02-26,34,0.92,Completed,99.8
+SRV0027,Gunawan Setiawan,Bandung,Survei Pertanian,2024-03-07,42,0.92,Completed,88.3
+SRV0028,Hesti Wulandari,Semarang,Survei Industri,2024-06-20,19,0.69,In Progress,86.6
+SRV0029,Irfan Hakim,Palembang,Survei Industri,2024-04-10,32,0.89,Pending Review,94.7
+SRV0030,Joko Susilo,Denpasar,Survei Industri,2024-05-04,13,0.88,Completed,89.1
+SRV0031,Ahmad Wijaya,Yogyakarta,Survei Kesehatan,2024-05-15,38,0.87,Completed,97.5
+SRV0032,Siti Rahayu,Surabaya,Sensus Penduduk,2024-01-14,40,0.95,Pending Review,78.3
+SRV0033,Budi Santoso,Semarang,Survei Sosial Ekonomi,2024-05-20,40,0.8,Completed,91.0
+SRV0034,Dewi Lestari,Yogyakarta,Survei Sosial Ekonomi,2024-02-06,12,0.63,Completed,74.9
+SRV0035,Eko Prasetyo,Bandung,Survei Sosial Ekonomi,2024-02-01,30,0.62,In Progress,84.5
+SRV0036,Fitri Handayani,Medan,Survei Industri,2024-01-04,20,0.61,Completed,71.6
+SRV0037,Gunawan Setiawan,Medan,Survei Industri,2024-04-22,46,0.67,In Progress,99.5
+SRV0038,Hesti Wulandari,Surabaya,Survei Kesehatan,2024-02-27,41,0.79,In Progress,72.0
+SRV0039,Irfan Hakim,Jakarta Pusat,Survei Sosial Ekonomi,2024-03-14,23,0.64,Completed,79.4
+SRV0040,Joko Susilo,Yogyakarta,Survei Sosial Ekonomi,2024-05-30,16,0.81,Completed,92.4
+SRV0041,Ahmad Wijaya,Makassar,Sensus Penduduk,2024-03-20,40,0.76,In Progress,94.2
+SRV0042,Siti Rahayu,Jakarta Pusat,Survei Industri,2024-02-17,37,0.86,Pending Review,78.1
+SRV0043,Budi Santoso,Semarang,Survei Pertanian,2024-04-21,11,0.91,In Progress,78.3
+SRV0044,Dewi Lestari,Semarang,Survei Industri,2024-03-19,19,0.61,Completed,81.9
+SRV0045,Eko Prasetyo,Surabaya,Survei Pertanian,2024-04-28,19,0.69,Completed,92.6
+SRV0046,Fitri Handayani,Yogyakarta,Survei Industri,2024-03-04,29,0.7,In Progress,97.5
+SRV0047,Gunawan Setiawan,Jakarta Pusat,Survei Sosial Ekonomi,2024-03-27,12,0.79,Completed,87.5
+SRV0048,Hesti Wulandari,Jakarta Pusat,Survei Pertanian,2024-02-28,18,0.73,In Progress,83.9
+SRV0049,Irfan Hakim,Denpasar,Survei Industri,2024-05-05,13,0.68,Pending Review,75.1
+SRV0050,Joko Susilo,Makassar,Survei Kesehatan,2024-06-15,16,0.84,Pending Review,95.2
+SRV0051,Ahmad Wijaya,Semarang,Survei Sosial Ekonomi,2024-06-23,10,0.93,Pending Review,71.2
+SRV0052,Siti Rahayu,Bandung,Survei Industri,2024-05-18,32,0.67,In Progress,86.9
+SRV0053,Budi Santoso,Surabaya,Survei Kesehatan,2024-06-21,21,0.74,Pending Review,99.8
+SRV0054,Dewi Lestari,Yogyakarta,Survei Pertanian,2024-05-01,22,0.64,Pending Review,75.1
+SRV0055,Eko Prasetyo,Denpasar,Survei Industri,2024-06-11,49,0.64,Pending Review,89.9
+SRV0056,Fitri Handayani,Medan,Sensus Penduduk,2024-06-05,29,0.89,In Progress,98.7
+SRV0057,Gunawan Setiawan,Surabaya,Survei Industri,2024-06-20,36,0.66,Completed,73.1
+SRV0058,Hesti Wulandari,Jakarta Selatan,Survei Industri,2024-05-02,36,0.62,Pending Review,93.3
+SRV0059,Irfan Hakim,Denpasar,Survei Pertanian,2024-05-17,43,0.88,Pending Review,92.3
+SRV0060,Joko Susilo,Jakarta Pusat,Survei Industri,2024-03-28,26,0.62,Pending Review,93.8
+SRV0061,Ahmad Wijaya,Jakarta Selatan,Survei Sosial Ekonomi,2024-03-28,10,0.9,Completed,73.2
+SRV0062,Siti Rahayu,Denpasar,Sensus Penduduk,2024-01-15,36,0.83,Completed,95.3
+SRV0063,Budi Santoso,Makassar,Survei Pertanian,2024-02-23,18,0.81,Pending Review,91.0
+SRV0064,Dewi Lestari,Palembang,Survei Sosial Ekonomi,2024-01-14,23,0.65,Completed,76.6
+SRV0065,Eko Prasetyo,Jakarta Pusat,Sensus Penduduk,2024-06-18,19,0.85,In Progress,77.2
+SRV0066,Fitri Handayani,Denpasar,Survei Pertanian,2024-04-23,10,0.76,In Progress,72.8
+SRV0067,Gunawan Setiawan,Yogyakarta,Sensus Penduduk,2024-04-09,31,0.66,Completed,86.6
+SRV0068,Hesti Wulandari,Bandung,Survei Kesehatan,2024-05-03,48,0.75,In Progress,76.0
+SRV0069,Irfan Hakim,Medan,Survei Pertanian,2024-02-18,22,0.88,Completed,81.8
+SRV0070,Joko Susilo,Makassar,Sensus Penduduk,2024-03-25,45,0.82,Completed,90.9
+SRV0071,Ahmad Wijaya,Semarang,Sensus Penduduk,2024-05-19,31,0.91,In Progress,95.5
+SRV0072,Siti Rahayu,Makassar,Survei Sosial Ekonomi,2024-04-22,12,0.93,Completed,98.4
+SRV0073,Budi Santoso,Medan,Survei Sosial Ekonomi,2024-05-27,15,0.83,Pending Review,70.9
+SRV0074,Dewi Lestari,Medan,Survei Industri,2024-05-22,11,0.86,In Progress,83.4
+SRV0075,Eko Prasetyo,Semarang,Survei Sosial Ekonomi,2024-02-05,32,0.77,Pending Review,87.0
+SRV0076,Fitri Handayani,Palembang,Survei Kesehatan,2024-03-13,41,0.94,In Progress,73.1
+SRV0077,Gunawan Setiawan,Surabaya,Survei Pertanian,2024-01-21,31,0.8,Completed,70.4
+SRV0078,Hesti Wulandari,Semarang,Survei Pertanian,2024-02-06,17,0.94,In Progress,73.5
+SRV0079,Irfan Hakim,Surabaya,Sensus Penduduk,2024-02-10,30,0.94,In Progress,72.7
+SRV0080,Joko Susilo,Medan,Survei Sosial Ekonomi,2024-05-03,43,0.81,Completed,85.7
+SRV0081,Ahmad Wijaya,Medan,Survei Industri,2024-04-01,31,0.71,Completed,76.4
+SRV0082,Siti Rahayu,Surabaya,Sensus Penduduk,2024-03-10,37,0.74,Completed,77.4
+SRV0083,Budi Santoso,Yogyakarta,Survei Sosial Ekonomi,2024-01-08,50,0.84,In Progress,72.0
+SRV0084,Dewi Lestari,Yogyakarta,Survei Sosial Ekonomi,2024-02-01,10,0.77,Pending Review,90.0
+SRV0085,Eko Prasetyo,Bandung,Survei Kesehatan,2024-02-21,41,0.73,Pending Review,93.3
+SRV0086,Fitri Handayani,Jakarta Selatan,Sensus Penduduk,2024-02-29,25,0.75,Pending Review,77.6
+SRV0087,Gunawan Setiawan,Bandung,Survei Kesehatan,2024-03-26,22,0.91,Pending Review,75.3
+SRV0088,Hesti Wulandari,Surabaya,Survei Kesehatan,2024-03-12,20,0.62,Pending Review,78.4
+SRV0089,Irfan Hakim,Medan,Survei Sosial Ekonomi,2024-05-04,35,0.77,In Progress,92.5
+SRV0090,Joko Susilo,Medan,Survei Kesehatan,2024-03-28,14,0.88,Completed,80.5
+SRV0091,Ahmad Wijaya,Surabaya,Survei Pertanian,2024-01-21,14,0.69,Completed,76.4
+SRV0092,Siti Rahayu,Semarang,Survei Kesehatan,2024-03-15,24,0.77,Completed,76.7
+SRV0093,Budi Santoso,Yogyakarta,Sensus Penduduk,2024-03-04,46,0.75,Completed,95.4
+SRV0094,Dewi Lestari,Jakarta Selatan,Sensus Penduduk,2024-02-27,32,0.7,Completed,74.0
+SRV0095,Eko Prasetyo,Semarang,Survei Pertanian,2024-02-10,36,0.92,Pending Review,93.1
+SRV0096,Fitri Handayani,Jakarta Pusat,Survei Pertanian,2024-06-10,19,0.65,Completed,71.5
+SRV0097,Gunawan Setiawan,Yogyakarta,Survei Industri,2024-05-13,32,0.91,In Progress,92.6
+SRV0098,Hesti Wulandari,Jakarta Pusat,Survei Kesehatan,2024-03-31,47,0.84,Pending Review,83.6
+SRV0099,Irfan Hakim,Jakarta Selatan,Survei Pertanian,2024-02-25,28,0.66,Completed,75.4
+SRV0100,Joko Susilo,Jakarta Selatan,Survei Industri,2024-02-21,43,0.76,Pending Review,75.0
