@@ -1,0 +1,8 @@
+# project configuration
+project:
+    name: bitcoin-price-pipeline
+    id: bitcoin-price-pipeline
+
+# postgres service
+postgres:
+  port: 5433

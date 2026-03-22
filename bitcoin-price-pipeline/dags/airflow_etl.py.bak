@@ -1,0 +1,99 @@
+from datetime import timedelta
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
+from airflow.hooks.base import BaseHook
+from pendulum import datetime
+
+import pandas as pd
+import psycopg2
+
+# Setup airflow configuration
+dag = DAG(
+    'etl_stock_to_postgres',
+    start_date=datetime(2025, 1, 1),
+    catchup=False
+)
+
+# Create table in PostgreSQL with the price_range column included
+# Using SQLExecuteQueryOperator to execute SQL directly
+create_table_sql = """
+CREATE TABLE IF NOT EXISTS stock_data (
+    id SERIAL PRIMARY KEY,
+    date TIMESTAMP,
+    open_price DECIMAL(20, 6),
+    high_price DECIMAL(20, 6),
+    low_price DECIMAL(20, 6),
+    close_price DECIMAL(20, 6),
+    volume BIGINT,
+    price_range DECIMAL(20, 6)
+);
+"""
+create_table_task = SQLExecuteQueryOperator(
+    task_id='create_table_postgres',
+    sql=create_table_sql,
+    conn_id='postgres-local',
+    dag=dag
+)
+
+# Extract data from CSV file and transform it to a pandas dataframe
+def extract_transform():
+    # Read the BTC stock data from CSV file
+    file_path = r'E:\Airflow Learning\dags\data\BTC-USD.csv'
+    df = pd.read_csv(file_path)
+
+    # Convert date column to datetime format
+    df["date"] = pd.to_datetime(df["Date"])
+
+    # Save the transformed data to a new CSV file
+    df.to_csv(r'E:\Airflow Learning\dags\data\transformed_data.csv', index=False)
+
+df_task = PythonOperator(
+    task_id='extract_transform',
+    python_callable=extract_transform,
+    dag=dag
+)
+
+# Load data to PostgreSQL
+def load_to_postgres():
+    # Get PostgreSQL connection details from Airflow connection
+    connection = BaseHook.get_connection('postgres-local')
+    conn = psycopg2.connect(
+        host=connection.host,
+        user=connection.login,
+        password=connection.password,
+        dbname=connection.schema,
+        port=connection.port
+    )
+
+    # Read the transformed data from CSV
+    df = pd.read_csv(r'E:\Airflow Learning\dags\data\transformed_data.csv')
+    
+    # Create cursor to execute queries
+    cursor = conn.cursor()
+    
+    # Insert each row of data into PostgreSQL
+    insert_query = """
+    INSERT INTO stock_data (date, open_price, high_price, low_price, close_price, volume) 
+    VALUES (%s, %s, %s, %s, %s, %s)
+    """
+    for _, row in df.iterrows():
+        cursor.execute(insert_query, (
+            row["date"], row["Open"], row["High"], row["Low"], row["Close"], row["Volume"]
+        ))
+
+    # Commit the changes to database
+    conn.commit()
+
+    # Close the cursor and connection
+    cursor.close()
+    conn.close()
+
+load_task = PythonOperator(
+    task_id='load_to_postgres',
+    python_callable=load_to_postgres,
+    dag=dag
+)
+
+# Define the task order
+create_table_task >> df_task >> load_task
